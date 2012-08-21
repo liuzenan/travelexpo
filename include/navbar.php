@@ -15,14 +15,14 @@
 				<ul class="nav">
 					<li class="divider-vertical nomargin"></li>
 					<li <?php if($title=='Map') echo 'class="active"';?>>
-						<a href="../travelexpo/map.php" class="nav-icon-button map">Map</a>
+						<a href="../travelexpo/map.php" class="nav-icon-button map" data-placement="bottom" title="Map">Map</a>
 					</li>
 					<li class="divider-vertical nomargin"></li>
-					<li <?php if($title=='Friends') echo 'class="active"';?>><a href="../travelexpo/friends.php" class="nav-icon-button friends">Friends</a></li>
+					<li <?php if($title=='Friends') echo 'class="active"';?>><a href="../travelexpo/friends.php" data-placement="bottom" class="nav-icon-button friends" title="Friends">Friends</a></li>
 					<li class="divider-vertical nomargin"></li>
-					<li <?php if($title=='Trips') echo 'class="active"';?>><a href="../travelexpo/trip.php" class="nav-icon-button trips">Trips</a></li>
+					<li <?php if($title=='Trips') echo 'class="active"';?>><a href="../travelexpo/trip.php" data-placement="bottom" class="nav-icon-button trips" title="Trips">Trips</a></li>
 					<li class="divider-vertical nomargin"></li>
-					<li <?php if($title=='Stats') echo 'class="active"';?>><a href="../travelexpo/stats.php" class="nav-icon-button stats">Stats</a></li>
+					<li <?php if($title=='Stats') echo 'class="active"';?>><a href="../travelexpo/stats.php" data-placement="bottom" class="nav-icon-button stats" title="Statistics">Stats</a></li>
 					<li class="divider-vertical nomargin"></li>
 				</ul>
 
@@ -39,7 +39,6 @@
 				</ul>
 				<form class="navbar-form pull-right">
 					<input type="text" class="search-query span2" placeholder="Search Friends">
-					<button type="submit" class="btn">Search</button>
 				</form>
 			</div>
 		</div>
