@@ -1,6 +1,37 @@
 .navbar .divider-vertical.nomargin{
 	margin:0;
 }
+
+.nav-icon-button{
+	background:url(../img/navbaricon.png) no-repeat;
+	width: 22px;
+	text-indent: -9999px;
+	opacity: 0.6;
+}
+
+.nav-icon-button:hover{
+	opacity: 1;
+}
+
+.active .nav-icon-button{
+	opacity: 1;
+}
+
+.map{
+	background-position: 10px 12px;
+	
+}
+.friends{
+	background-position: -34px 12px;
+	text-indent: -9999px;
+}
+.trips{
+	background-position: -84px 12px;
+	text-indent: -9999px;
+}
+.stats{
+	background-position: -130px 12px;
+}
 .navbar .brand.newfont{
 	font-family: 'Lobster', cursive;
 	color: #fff;

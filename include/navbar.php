@@ -16,14 +16,14 @@
 				<ul class="nav">
 					<li class="divider-vertical nomargin"></li>
 					<li <?php if($title=='Map') echo 'class="active"';?>>
-						<a href="../travelexpo/map.php">Map</a>
+						<a href="../travelexpo/map.php" class="nav-icon-button map">Map</a>
 					</li>
 					<li class="divider-vertical nomargin"></li>
-					<li <?php if($title=='Friends') echo 'class="active"';?>><a href="../travelexpo/friends.php">Friends</a></li>
+					<li <?php if($title=='Friends') echo 'class="active"';?>><a href="../travelexpo/friends.php" class="nav-icon-button friends">Friends</a></li>
 					<li class="divider-vertical nomargin"></li>
-					<li <?php if($title=='Trips') echo 'class="active"';?>><a href="../travelexpo/trip.php">Trips</a></li>
+					<li <?php if($title=='Trips') echo 'class="active"';?>><a href="../travelexpo/trip.php" class="nav-icon-button trips">Trips</a></li>
 					<li class="divider-vertical nomargin"></li>
-					<li <?php if($title=='Stats') echo 'class="active"';?>><a href="../travelexpo/stats.php">Stats</a></li>
+					<li <?php if($title=='Stats') echo 'class="active"';?>><a href="../travelexpo/stats.php" class="nav-icon-button stats">Stats</a></li>
 					<li class="divider-vertical nomargin"></li>
 				</ul>
 
