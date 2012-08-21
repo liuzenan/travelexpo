@@ -8,7 +8,7 @@
  			</div>
  			<div class="text-overlay">
  				<h2>
- 				50 friends
+ 				<?php echo $num_friends ?> friends
  				</h2>
  				<p>
  				with travel photos

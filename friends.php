@@ -4,7 +4,7 @@ include 'include/header.php';
 ?>
 <?php include 'include/navbar.php'?>
 
-<ul class="thumbnails">
+<ul class="thumbnails container-fluid">
  	<li class="span4">
  		<div class="thumbnail fixed-height overview">
  			<div class="facetile">
