@@ -27,6 +27,7 @@
 				</ul>
 
 				<ul class="nav pull-right">
+					<li class="divider-vertical"></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Username <b class="caret"></b></a>
 						<ul class="dropdown-menu">
@@ -36,8 +37,9 @@
 						</ul>
 					</li>
 				</ul>
-								<form class="navbar-form pull-right">
+				<form class="navbar-form pull-right">
 					<input type="text" class="search-query span2" placeholder="Search Friends">
+					<button type="submit" class="btn">Search</button>
 				</form>
 			</div>
 		</div>
