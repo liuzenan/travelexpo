@@ -9,8 +9,7 @@
 			</a>
 
 			<!-- Be sure to leave the brand out there if you want it shown -->
-			<a class="brand newfont" href="#">TravelExpo</a>
-
+			<a class="brand newfont insetType" href="#">TravelExpo</a>
 			<!-- Everything you want hidden at 940px or less, place within here -->
 			<div class="nav-collapse">
 				<ul class="nav">
@@ -44,3 +43,4 @@
 		</div>
 	</div>
 </div>
+<div class="main-content">
