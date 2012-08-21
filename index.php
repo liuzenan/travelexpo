@@ -2,17 +2,19 @@
 $title = 'Explore travel destinations from your friends\' photos!';
 include 'include\header.php'
  ?>
- <div class="main-content">
-        <header class="landing-header">
+
+<header class="landing-header">
             <a href="" title="TravelExpo">TravelExpo is a facebook application that helps you to explore travel destinations through your friends travel photos.
             </a>
         </header>
+ <div class="main-content">
+
     <div class="container">
 
         <div class="hero-unit">
             <div class="row-fluid">
                  <div class="span4">
-                    <img class="thumbnail" src="img/example.jpg" alt="">
+                    <img class="img-polaroid" src="img/example.jpg" alt="">
             </div>
                 <div class="span8">
                     <h1>Explore the best travel destinations</h1>
